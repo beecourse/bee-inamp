@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:bee-inamp-cache
-EELAYER 29 0
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -581,6 +581,28 @@ F 1 "GND" H 3455 7327 50  0000 C CNN
 F 2 "" H 3450 7500 50  0001 C CNN
 F 3 "" H 3450 7500 50  0001 C CNN
 	1    3450 7500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical-emt:Silkscreen_Label H11
+U 1 1 5CCC571C
+P 4550 6800
+F 0 "H11" H 4675 6845 50  0000 L CNN
+F 1 "Silkscreen_Label" H 4675 6754 50  0000 L CNN
+F 2 "Symbol-emt:EMT-Logo_5.1x2.5mm_Silkscreen" H 4550 6800 50  0001 C CNN
+F 3 "~" H 4550 6800 50  0001 C CNN
+	1    4550 6800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical-emt:Silkscreen_Label H12
+U 1 1 5CCC5878
+P 4550 7050
+F 0 "H12" H 4675 7095 50  0000 L CNN
+F 1 "Silkscreen_Label" H 4675 7004 50  0000 L CNN
+F 2 "Symbol-emt:BEE-Logo_Silkscreen_small" H 4550 7050 50  0001 C CNN
+F 3 "~" H 4550 7050 50  0001 C CNN
+	1    4550 7050
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
