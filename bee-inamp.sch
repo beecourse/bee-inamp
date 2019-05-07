@@ -22,6 +22,7 @@ F 0 "J2" H 956 1478 50  0000 C CNN
 F 1 "Conn_01x02_Male" H 956 1387 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 850 1300 50  0001 C CNN
 F 3 "~" H 850 1300 50  0001 C CNN
+F 4 "RND 205-00623" H 850 1300 50  0001 C CNN "Reichelt Part No"
 	1    850  1300
 	1    0    0    -1  
 $EndComp
@@ -33,6 +34,7 @@ F 0 "J1" H 956 1128 50  0000 C CNN
 F 1 "Conn_01x02_Male" H 956 1037 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 850 950 50  0001 C CNN
 F 3 "~" H 850 950 50  0001 C CNN
+F 4 "RND 205-00623" H 850 950 50  0001 C CNN "Reichelt Part No"
 	1    850  950 
 	1    0    0    -1  
 $EndComp
@@ -44,6 +46,7 @@ F 0 "J4" H 956 2328 50  0000 C CNN
 F 1 "Conn_01x02_Male" H 956 2237 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 850 2150 50  0001 C CNN
 F 3 "~" H 850 2150 50  0001 C CNN
+F 4 "RND 205-00623" H 850 2150 50  0001 C CNN "Reichelt Part No"
 	1    850  2150
 	1    0    0    -1  
 $EndComp
@@ -121,6 +124,7 @@ F 0 "J3" H 956 1978 50  0000 C CNN
 F 1 "Conn_01x02_Male" H 956 1887 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 850 1800 50  0001 C CNN
 F 3 "~" H 850 1800 50  0001 C CNN
+F 4 "RND 205-00623" H 850 1800 50  0001 C CNN "Reichelt Part No"
 	1    850  1800
 	1    0    0    -1  
 $EndComp
@@ -152,6 +156,7 @@ F 0 "R1" V 1943 2650 50  0000 C CNN
 F 1 "16k" V 2034 2650 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 2080 2650 50  0001 C CNN
 F 3 "~" H 2150 2650 50  0001 C CNN
+F 4 "RND 0805 1 16K" H 2150 2650 50  0001 C CNN "Reichelt Part No"
 	1    2150 2650
 	0    1    1    0   
 $EndComp
@@ -160,9 +165,10 @@ L Device:R R2
 U 1 1 5CC228EA
 P 2150 3050
 F 0 "R2" V 1943 3050 50  0000 C CNN
-F 1 "820R" V 2034 3050 50  0000 C CNN
+F 1 "820" V 2034 3050 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 2080 3050 50  0001 C CNN
 F 3 "~" H 2150 3050 50  0001 C CNN
+F 4 "RND 0805 1 820" H 2150 3050 50  0001 C CNN "Reichelt Part No"
 	1    2150 3050
 	0    1    1    0   
 $EndComp
@@ -202,8 +208,8 @@ P 6000 2550
 F 0 "C1" V 5748 2550 50  0000 C CNN
 F 1 "0.1µF" V 5839 2550 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6038 2400 50  0001 C CNN
-F 3 "https://www.reichelt.de/index.html?ACTION=7&LA=3&OPEN=0&INDEX=0&FILENAME=B300%252FKEM_C0XXX_X7R_DB-EN.pdf" H 6000 2550 50  0001 C CNN
-F 4 "KEM X7R0805 100N" H 6000 2550 50  0001 C CNN "order number"
+F 3 "~" H 6000 2550 50  0001 C CNN
+F 4 "X7R-G0805 100N" H 6000 2550 50  0001 C CNN "Reichelt Part No"
 	1    6000 2550
 	0    1    1    0   
 $EndComp
@@ -214,8 +220,8 @@ P 6000 3650
 F 0 "C2" V 5748 3650 50  0000 C CNN
 F 1 "0.1µF" V 5839 3650 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6038 3500 50  0001 C CNN
-F 3 "https://www.reichelt.de/index.html?ACTION=7&LA=3&OPEN=0&INDEX=0&FILENAME=B300%252FKEM_C0XXX_X7R_DB-EN.pdf" H 6000 3650 50  0001 C CNN
-F 4 "KEM X7R0805 100N" H 6000 3650 50  0001 C CNN "order number"
+F 3 "~" H 6000 3650 50  0001 C CNN
+F 4 "X7R-G0805 100N" H 6000 3650 50  0001 C CNN "Reichelt Part No"
 	1    6000 3650
 	0    1    1    0   
 $EndComp
@@ -310,7 +316,7 @@ F 0 "U1" H 6744 3146 50  0000 L CNN
 F 1 "INA126" H 6744 3055 50  0000 L CNN
 F 2 "Package_SO:SO-8_5.3x6.2mm_P1.27mm" H 6400 3100 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/ina128.pdf" H 6400 3100 50  0001 C CNN
-F 4 "INA 126 UA/2K5" H 6300 3100 50  0001 C CNN "order number"
+F 4 "INA 126 UA/2K5" H 6300 3100 50  0001 C CNN "Reichelt Part No"
 	1    6300 3100
 	1    0    0    -1  
 $EndComp
@@ -370,6 +376,7 @@ F 0 "J7" H 3500 3367 50  0000 C CNN
 F 1 "Conn_02x03_Odd_Even" H 3500 3276 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical_SMD" H 3450 3050 50  0001 C CNN
 F 3 "~" H 3450 3050 50  0001 C CNN
+F 4 "RND 205-00634" H 3450 3050 50  0001 C CNN "Reichelt Part No"
 	1    3450 3050
 	1    0    0    -1  
 $EndComp
@@ -398,6 +405,7 @@ F 0 "J8" H 4918 3417 50  0000 C CNN
 F 1 "Conn_01x03" H 4918 3326 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 5000 3100 50  0001 C CNN
 F 3 "~" H 5000 3100 50  0001 C CNN
+F 4 "RND 205-00624" H 5000 3100 50  0001 C CNN "Reichelt Part No"
 	1    5000 3100
 	-1   0    0    -1  
 $EndComp
@@ -409,6 +417,7 @@ F 0 "J9" H 7680 3092 50  0000 L CNN
 F 1 "Conn_01x02" H 7680 3001 50  0000 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 7600 3100 50  0001 C CNN
 F 3 "~" H 7600 3100 50  0001 C CNN
+F 4 "RND 205-00623" H 7600 3100 50  0001 C CNN "Reichelt Part No"
 	1    7600 3100
 	1    0    0    -1  
 $EndComp
@@ -437,6 +446,7 @@ F 0 "J5" V 1900 3850 50  0000 L CNN
 F 1 "Conn_01x02" V 2100 3450 50  0000 L CNN
 F 2 "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical" H 2000 3800 50  0001 C CNN
 F 3 "~" H 2000 3800 50  0001 C CNN
+F 4 "MPE 006-1-002" H 2000 3800 50  0001 C CNN "Reichelt Part No"
 	1    2000 3800
 	0    1    1    0   
 $EndComp
@@ -448,6 +458,7 @@ F 0 "J6" V 2350 3850 50  0000 L CNN
 F 1 "Conn_01x02" V 2550 3550 50  0000 L CNN
 F 2 "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical" H 2450 3800 50  0001 C CNN
 F 3 "~" H 2450 3800 50  0001 C CNN
+F 4 "MPE 006-1-002" H 2450 3800 50  0001 C CNN "Reichelt Part No"
 	1    2450 3800
 	0    1    1    0   
 $EndComp
