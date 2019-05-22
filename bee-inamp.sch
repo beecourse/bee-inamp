@@ -376,7 +376,7 @@ F 0 "J7" H 3500 3367 50  0000 C CNN
 F 1 "Conn_02x03_Odd_Even" H 3500 3276 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical_SMD" H 3450 3050 50  0001 C CNN
 F 3 "~" H 3450 3050 50  0001 C CNN
-F 4 "RND 205-00634" H 3450 3050 50  0001 C CNN "Reichelt Part No"
+F 4 "SL 2X10G SMD2,54" H 3450 3050 50  0001 C CNN "Reichelt Part No"
 	1    3450 3050
 	1    0    0    -1  
 $EndComp
