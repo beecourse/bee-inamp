@@ -693,7 +693,7 @@
     )
   )
 
-  (module Symbol-emt:Text_U_B+_Silkscreen (layer F.Cu) (tedit 5CA4D6E4) (tstamp 5CC87AFB)
+  (module Symbol-bee:Text_U_B+_Silkscreen (layer F.Cu) (tedit 5CA4D6E4) (tstamp 5CC87AFB)
     (at 75.184 91.44)
     (descr "Voltage Label Betriebsspannung")
     (tags "Voltage Label Betriebsspannung")
@@ -713,7 +713,7 @@
     )
   )
 
-  (module Symbol-emt:Text_U_B+_Silkscreen (layer F.Cu) (tedit 5CA4D6E4) (tstamp 5CC87B01)
+  (module Symbol-bee:Text_U_B+_Silkscreen (layer F.Cu) (tedit 5CA4D6E4) (tstamp 5CC87B01)
     (at 85.852 91.44)
     (descr "Voltage Label Betriebsspannung")
     (tags "Voltage Label Betriebsspannung")
@@ -733,7 +733,7 @@
     )
   )
 
-  (module Symbol-emt:Text_U_B-_Silkscreen (layer F.Cu) (tedit 5CA4D70B) (tstamp 5CC87B07)
+  (module Symbol-bee:Text_U_B-_Silkscreen (layer F.Cu) (tedit 5CA4D70B) (tstamp 5CC87B07)
     (at 75.184 93.98)
     (descr "Voltage Label Betriebsspannung")
     (tags "Voltage Label Betriebsspannung")
@@ -753,7 +753,7 @@
     )
   )
 
-  (module Symbol-emt:Text_U_B-_Silkscreen (layer F.Cu) (tedit 5CA4D70B) (tstamp 5CC87B0D)
+  (module Symbol-bee:Text_U_B-_Silkscreen (layer F.Cu) (tedit 5CA4D70B) (tstamp 5CC87B0D)
     (at 85.852 93.98)
     (descr "Voltage Label Betriebsspannung")
     (tags "Voltage Label Betriebsspannung")
@@ -773,7 +773,7 @@
     )
   )
 
-  (module Symbol-emt:Text_U_B2_Silkscreen (layer F.Cu) (tedit 5CA4D7AD) (tstamp 5CC87B13)
+  (module Symbol-bee:Text_U_B2_Silkscreen (layer F.Cu) (tedit 5CA4D7AD) (tstamp 5CC87B13)
     (at 75.184 137.16)
     (descr "Voltage Label Betriebsspannung")
     (tags "Voltage Label Betriebsspannung")
@@ -793,7 +793,7 @@
     )
   )
 
-  (module Symbol-emt:Text_U_B2_Silkscreen (layer F.Cu) (tedit 5CA4D7AD) (tstamp 5CC87B19)
+  (module Symbol-bee:Text_U_B2_Silkscreen (layer F.Cu) (tedit 5CA4D7AD) (tstamp 5CC87B19)
     (at 85.852 137.16)
     (descr "Voltage Label Betriebsspannung")
     (tags "Voltage Label Betriebsspannung")
@@ -813,7 +813,7 @@
     )
   )
 
-  (module Symbol-emt:Symbol_GND_Silkscreen (layer F.Cu) (tedit 5CA5EB6D) (tstamp 5CC87B1F)
+  (module Symbol-bee:Symbol_GND_Silkscreen (layer F.Cu) (tedit 5CA5EB6D) (tstamp 5CC87B1F)
     (at 75.692 139.7)
     (descr "Symbol GND")
     (tags "Symbol GND")
@@ -829,7 +829,7 @@
     (fp_line (start -0.5 0.8) (end 0.5 0.8) (layer F.SilkS) (width 0.25))
   )
 
-  (module Symbol-emt:Symbol_GND_Silkscreen (layer F.Cu) (tedit 5CA5EB6D) (tstamp 5CC87B25)
+  (module Symbol-bee:Symbol_GND_Silkscreen (layer F.Cu) (tedit 5CA5EB6D) (tstamp 5CC87B25)
     (at 86.868 139.7)
     (descr "Symbol GND")
     (tags "Symbol GND")
@@ -887,7 +887,7 @@
       (net 3 GND))
   )
 
-  (module Symbol-emt:EMT-Logo_5.1x2.5mm_Silkscreen (layer F.Cu) (tedit 5CC853EC) (tstamp 5CD8629F)
+  (module Symbol-bee:EMT-Logo_5.1x2.5mm_Silkscreen (layer F.Cu) (tedit 5CC853EC) (tstamp 5CD8629F)
     (at 78.74 108.458)
     (descr EMT-Logo)
     (tags EMT-Logo)
@@ -1245,7 +1245,7 @@
       (xy 1.243014 -1.158797)) (layer F.SilkS) (width 0.01))
   )
 
-  (module Symbol-emt:BEE-Logo_Silkscreen_small (layer F.Cu) (tedit 5CC8716A) (tstamp 5CD862D6)
+  (module Symbol-bee:BEE-Logo_Silkscreen_small (layer F.Cu) (tedit 5CC8716A) (tstamp 5CD862D6)
     (at 84.582 108.712)
     (descr BEE-Logo)
     (tags BEE-Logo)
